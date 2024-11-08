@@ -1,0 +1,28 @@
+.work-title-holder{
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.work-title-holder h2{
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.work-title-holder .subtitle{
+    color: #999999;
+}
+
+.work-title-holder .subtitle:before{
+    content: '-';
+    margin: 0 5px 0 0;
+}
+
+.work-title-holder .subtitle:after{
+    content: '-';
+    margin: 0 0 0 5px;
+}
+
+.work-block .portfoliolist>div{
+    padding: 15px;
+    overflow: hidden;
+}

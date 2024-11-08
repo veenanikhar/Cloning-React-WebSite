@@ -1,0 +1,51 @@
+.about-block{
+    padding: 90px 0 60px;
+}
+
+.about-block .progress-block {
+    margin: 0 0 25px;
+}
+
+.about-block .progress-block h4 {
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.about-block .progress-bar {
+    background-color: #01a29c;
+    /* -webkit-transition: width 0.3s linear; */
+    /* transition: width 0.3s linear; */
+}
+
+.about-block .features [class*="col-"] {
+    padding-bottom: 30px;
+}
+
+.about-block .progress-block {
+    padding-top: 5px;
+}
+
+.about-title-holder {
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.about-title-holder h2 {
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.about-title-holder .subtitle {
+    color: #999999;
+}
+
+.about-title-holder .subtitle:before {
+    content: '-';
+    margin: 0 5px 0 0;
+}
+
+.about-title-holder .subtitle:after {
+    content: '-';
+    margin: 0 0 0 5px;
+}

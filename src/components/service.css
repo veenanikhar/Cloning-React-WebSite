@@ -1,0 +1,80 @@
+.service-title-holder {
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.service-title-holder h2{
+    margin: 0 0 5px;
+    text-transform: uppercase;
+}
+
+.service-title-holder .subtitle{
+    color: #999999;
+}
+
+.service-title-holder .subtitle:before{
+    content: '-';
+    margin: 0 5px 0 0;    
+}
+
+.service-title-holder .subtitle:after{
+    content: '-';
+    margin: 0 0 0 5px;    
+}
+
+
+.services-block{
+    padding: 50px 0 50px;
+}
+
+.services-block .holder:hover{
+    margin-top: -5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.services-block .icon{
+    /* background-color: #d4d4d4; */
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+    color: #01a29c;
+    margin: 10px 0 20px;
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    border-radius: 50%;
+    text-align: center;
+    /* transition: all 0.3s linear; */
+    /* It ensures that the transition works in these browsers */
+    /* -webkit-transition: all 0.3s linear; */
+}
+
+.services-block .icon .fas{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2;
+}
+
+.services-block .row{
+    margin: 0 -15px 50px;      
+}
+
+.services-block .row:last-child{
+    margin: 0 -15px;      
+}
+
+.services-block .holder{
+    transition: all 0.3s linear;
+}
+
+.services-block .holder:hover{
+    margin-top: -5px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+.services-block .holder:hover .icon{
+    box-shadow: inset 0 0 0 30px #01a29c;
+    color: #fff;
+    font-size: 18px;
+}
